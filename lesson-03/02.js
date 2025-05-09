@@ -3,9 +3,9 @@
 
 function isEven(number) {
     if (number % 2 === 0) {
-        return "true"
+        return true
     } else {
-        return "false"
+        return false
     }
 }
 
