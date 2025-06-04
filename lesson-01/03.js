@@ -5,22 +5,4 @@
 */
 
 // your code
-let sum = 0;
-let counter = 0;
-
-while (counter < 20) {
-  counter = counter + 1;
-
-  if (counter % 2 === 0) {
-    console.log("Чётное");
-    
-  } else {
-    console.log("Нечётное");
-    sum = counter + sum;
-    
-  }
-
-}
-
-console.log(sum);
-
+let sum

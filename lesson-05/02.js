@@ -9,10 +9,10 @@
 
 Пример использования функции:
 
-  uncd Mh'constgallery = {
+const gallery = {
   'Mona Lisa': 'Leonardo da Vinci',
   'Starry Night': 'Vincent van Gogh',
-  'The Scream': 'Edvar
+  'The Scream': 'Edvard Munch'
 }
 
 updateGallery(gallery, 'Mona Lisa', 'Leonardo da Vinci, 1503-1506')
@@ -35,13 +35,4 @@ const gallery = {
   'The Scream': 'Edvard Munch',
 }
 
-function updateGallery(objGallery, nameWork, newMeaning) {
-  objGallery[nameWork] = newMeaning;
-}
-
-updateGallery(gallery, 'Mona Lisa', 'Leonardo da Vinci, 1503-1506');
-updateGallery(gallery, 'The Persistence of Memory', 'Salvador Dali');
-
-console.log(gallery);
-
-
+function updateGallery() {}
